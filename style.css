@@ -26,7 +26,7 @@ body {
 
 .main .box {
   /* height: 80vh; */
-  height: 524px ;
+  height: 524px;
   width: 100%;
   background-color: black;
   opacity: 0.6;
@@ -124,7 +124,7 @@ nav button {
   background-color: #d60101;
   color: white;
   font-weight: 500;
-  padding: 5px 14px ;
+  padding: 5px 14px;
 }
 
 .hero-buttons {
@@ -203,20 +203,20 @@ section.third {
   margin: 4em 0em 6em 0em;
 }
 
-.faq{
+.faq {
   color: white;
   padding: 34px;
 
 }
 
-.faq h2{
+.faq h2 {
   text-align: center;
   font-size: 36px;
-  font-weight: 900 ;
+  font-weight: 900;
   margin: 0px 0px 20px 0px;
 }
 
-.faqbox{
+.faqbox {
   background-color: #2d2d2d;
   padding: 22px;
   margin: 5px auto;
@@ -233,23 +233,25 @@ section.third {
   color: white;
 }
 
-.faqbox svg{
-  filter: invert(1) ;
+.faqbox svg {
+  filter: invert(1);
   height: 36px;
   width: 36px;
 }
 
-.faq .faqlogin  input {
+.faq .faqlogin input {
   padding: 9px 101px 8px 14px;
   color: white;
   font-size: 12px;
   border-radius: 4px;
   background-color: rgba(23, 23, 23, 0.7);
 }
-.faqlogin :first-child{
-font-size: 15px ;
+
+.faqlogin :first-child {
+  font-size: 15px;
 }
-.faqlogin{
+
+.faqlogin {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -257,7 +259,8 @@ font-size: 15px ;
   margin: 19px 0px 13px 0px;
 
 }
-footer{
+
+footer {
   color: white;
   display: flex;
   justify-content: center;
@@ -274,9 +277,11 @@ footer a {
   color: rgba(255, 255, 255, 0.7);
   font-size: 11px;
 }
-footer ul{
+
+footer ul {
   list-style: none;
 }
+
 footer .first .btn {
   width: 78px;
   display: flex;
@@ -286,7 +291,7 @@ footer .first .btn {
   padding: 0px 4px;
 }
 
-.card{
+.card {
   bottom: 168px;
   position: relative;
   left: 20.5%;
@@ -301,35 +306,163 @@ footer .first .btn {
   justify-content: space-between;
 
 }
+
 .card .cardimg img {
-  height: 50px ;
-  /* width: 60px; */
-}
-.card .cardend img {
-  height: 20px ;
-}
-.card .cardend  {
-  margin-right: 12px;
-}
-.card .cardmid  {
-  display: flex;
-  flex-direction: column;
+  height: 58px;
+  width: 57px;
+  position: relative;
+  top: 22px;
+  left: 2px;
 }
 
-.card .cardmid :nth-child(1)  {
+.card .cardend img {
+  height: 20px;
+  width: 70px;
+}
+
+.card .cardend {
+  margin-right: 12px;
+}
+
+.card .cardmid {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+}
+
+.card .cardmid :nth-child(1) {
   color: white;
   font-size: 12px;
   font-weight: 500;
 }
-.card .cardmid :nth-child(2)  {
+
+.card .cardmid :nth-child(2) {
   color: rgb(0, 113, 235);
   font-size: 11px;
   font-weight: 400;
 }
-.cardfirst{
-  width: 55% ;
+
+.cardfirst {
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
+@media (max-width: 760px) {
+  .main {
+    background-size: 190%, max(1200px, 100vw);
+  }
+
+  .main input {
+    padding: 8px 64px 9px 15px;
+  }
+  .btn-red {
+    padding: 0.6em .5em;
+    font-size: 12px;
+  }
+  nav img {
+    width: 100px;
+  }
+
+  .btn-red-sm {
+    font-size: 12px;
+  }
+
+  .hero> :first-child {
+    font-size: 30px;
+  }
+
+  .hero> :nth-child(2) {
+    font-size: 14px;
+  }
+
+  .hero> :nth-child(2) {
+    font-size: 14px;
+  }
+  section.first {
+    height: 336px;
+  }
+
+  section.first>div :first-child {
+    font-size: 26px;
+    margin-left: 16px;
+  }
+
+  section.first>div :nth-child(2) {
+    font-size: .8rem;
+    margin-left: 16px;
+  }
+
+  #tvPng {
+    width: 367px;
+  }
+
+  #video1 {
+    width: 272px;
+    top: 56px;
+    left: 46px;
+  }
+
+  section .second {
+    height: 339px;
+    background-color: blueviolet;
+  }
+
+  #kidsPng {
+    width: 346px;
+  }
+
+  section.second {
+    height: 330px;
+  }
+
+  #mobileJpg {
+    width: 332px;
+    position: relative;
+    top: 42px;
+  }
+
+  #mobileSection {
+    height: 285px;
+  }
+
+  .card {
+    transform: scale(0.7);
+    bottom: 61px;
+    left: 57px;
+  }
+
+  section.third {
+    height: 189px;
+  }
+
+  .faq h2 {
+    font-size: 26px;
+  }
+
+  .faqbox {
+    font-size: .8rem;
+    padding: 1em;
+  }
+  .faqlogin :first-child {
+    font-size: 12px;
+}
+.faq .faqlogin input {
+  padding: 8px 23px 8px 15px;
+}
+
+
+  footer {
+    width: 100vw;
+    gap: 5%;
+  }
+
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: #d60101;
+  }
+
+}
